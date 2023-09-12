@@ -1,0 +1,53 @@
+{
+    "cols": 4,
+    "items": {
+        "hubble": {
+            "image": "https://github.com/kamangir/hubble/raw/main/assets/u4ge0106r_d0f.jpg",
+            "url": "https://github.com/kamangir/hubble"
+        },
+        "dec82": {
+            "image": "https://github.com/kamangir/blue-bracket/raw/main/images/dec82-6.jpg",
+            "url": "https://github.com/kamangir/dec82"
+        },
+        "ferfereh": {
+            "image": "https://user-images.githubusercontent.com/1007567/221448494-d57e08c1-625b-499e-a576-81894f112d6a.jpg",
+            "url": "https://github.com/kamangir/ferfereh"
+        },
+        "openai": {
+            "image": "https://github.com/kamangir/openai/raw/main/assets/carrot.png",
+            "url": "https://github.com/kamangir/openai"
+        },
+        "Vancouver-Watching": {
+            "image": "https://user-images.githubusercontent.com/1007567/196573547-b1c71b3b-7fac-4d2c-bba0-a87b063830da.png",
+            "url": "https://github.com/kamangir/Vancouver-Watching"
+        },
+        "blue-rvr": {
+            "image": "https://github.com/kamangir/blue-rvr/raw/master/abcli/assets/marquee.jpeg",
+            "url": "https://github.com/kamangir/blue-rvr"
+        },
+        "blue-bracket": {
+            "image": "https://github.com/kamangir/blue-bracket/raw/main/images/marquee.jpg",
+            "url": "https://github.com/kamangir/blue-bracket"
+        },
+        "blue-sbc": {
+            "image": "https://github.com/kamangir/blue-bracket/raw/main/images/blue3-1.jpg",
+            "url": "https://github.com/kamangir/blue-sbc"
+        },
+        "blue-stability": {
+            "image": "https://github.com/kamangir/AI-ART/raw/main/blue-stability/blue_stability.gif",
+            "url": "https://github.com/kamangir/blue-stability"
+        },
+        "Kanata": {
+            "image": "https://camo.githubusercontent.com/b8a919b69fe6b8b31dacab8ff8997a8bd43c9fe1c0650eceefa839c150d91831/68747470733a2f2f6b616d616e6769722d7075626c69632e73332e63612d63656e7472616c2d312e616d617a6f6e6177732e636f6d2f43616e616469616e735f7631312e676966",
+            "url": "https://github.com/kamangir/Kanata"
+        },
+        "aiart": {
+            "image": "https://github.com/kamangir/openai/raw/main/assets/DALL-E.png?raw=1",
+            "url": "https://github.com/kamangir/aiart"
+        },
+        "template": {
+            "image": "TBA",
+            "url": "TBA"
+        }
+    }
+}

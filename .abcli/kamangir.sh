@@ -23,6 +23,9 @@ function kamangir() {
         python3 -m kamangir \
             update \
             "${@:2}"
+
+        abcli_git cd kamangir
+        git status
         return
     fi
 

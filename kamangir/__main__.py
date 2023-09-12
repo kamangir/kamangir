@@ -18,7 +18,7 @@ if args.task == "version":
     print(f"{NAME}-{VERSION}")
     success = True
 elif args.task == "update":
-    success = update_repo()
+    success = update()
 else:
     logger.error(f"-{NAME}: {args.task}: command not found.")
 

@@ -1,5 +1,5 @@
 NAME = "kamangir"
 
-VERSION = "3.2.1"
+VERSION = "3.3.1"
 
 from .functions import *
