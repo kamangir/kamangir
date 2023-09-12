@@ -9,7 +9,7 @@ parser = argparse.ArgumentParser(NAME, description=f"{NAME}-{VERSION}")
 parser.add_argument(
     "task",
     type=str,
-    help="version",
+    help="update|version",
 )
 args = parser.parse_args()
 
@@ -17,6 +17,8 @@ success = False
 if args.task == "version":
     print(f"{NAME}-{VERSION}")
     success = True
+elif args.task == "update":
+    success = update_repo()
 else:
     logger.error(f"-{NAME}: {args.task}: command not found.")
 

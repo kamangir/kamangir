@@ -22,7 +22,7 @@ function kamangir() {
     if [ "$task" == "update" ] ; then
         python3 -m kamangir \
             update \
-            ${@:2}
+            "${@:2}"
         return
     fi
 
