@@ -3,6 +3,7 @@ from abcli import file
 import abcli
 from abcli.plugins import markdown
 from kamangir import NAME, VERSION
+from kamangir.content import content
 from functools import reduce
 from abcli import logging
 import logging
@@ -27,14 +28,6 @@ def update():
     if not success:
         return success
 
-    success, content = file.load_json(
-        os.path.join(
-            abcli_path_git,
-            "kamangir/assets/items.json",
-        )
-    )
-    if not success:
-        return success
     items = [
         "[![image]({})]({})".format(item["image"], item["url"])
         for name, item in content["items"].items()
