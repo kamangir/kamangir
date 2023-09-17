@@ -29,7 +29,11 @@ def update():
         return success
 
     items = [
-        "[![image]({})]({})".format(item["image"], item["url"])
+        "[![image]({})]({}) {}".format(
+            item["image"],
+            item["url"],
+            item["description"],
+        )
         for name, item in content["items"].items()
         if name != "template"
     ]
