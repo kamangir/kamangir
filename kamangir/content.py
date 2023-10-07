@@ -1,8 +1,14 @@
 from hubble import DESCRIPTION as hubble_DESCRIPTION
+from roofAI import DESCRIPTION as roofAI_DESCRIPTION
 
 content = {
     "cols": 4,
     "items": {
+        "roofAI": {
+            "image": "https://github.com/kamangir/roofAI/raw/main/assets/AIRS.png",
+            "url": "https://github.com/kamangir/roofAI",
+            "description": roofAI_DESCRIPTION,
+        },
         "hubble": {
             "image": "https://github.com/kamangir/hubble/raw/main/assets/hst/u4ge0106r_c0m.gif",
             "url": "https://github.com/kamangir/hubble",
