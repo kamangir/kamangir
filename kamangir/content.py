@@ -5,7 +5,7 @@ content = {
     "cols": 4,
     "items": {
         "roofAI": {
-            "image": "https://github.com/kamangir/roofAI/raw/main/assets/AIRS.png",
+            "image": "https://github.com/kamangir/assets/blob/main/2023-10-28-16-28-36-88493-predict.gif?raw=true",
             "url": "https://github.com/kamangir/roofAI",
             "description": roofAI_DESCRIPTION,
         },
