@@ -20,11 +20,6 @@ content = {
             "url": "https://github.com/kamangir/hubble",
             "description": hubble_DESCRIPTION,
         },
-        "ferfereh": {
-            "image": "https://user-images.githubusercontent.com/1007567/221448494-d57e08c1-625b-499e-a576-81894f112d6a.jpg",
-            "url": "https://github.com/kamangir/ferfereh",
-            "description": "3d-printed graffiti",
-        },
         "openai": {
             "image": "https://github.com/kamangir/openai/raw/main/assets/carrot.png",
             "url": "https://github.com/kamangir/openai",
@@ -44,6 +39,11 @@ content = {
             "image": "https://github.com/kamangir/openai/raw/main/assets/DALL-E.png?raw=1",
             "url": "https://github.com/kamangir/aiart",
             "description": "tools for AiArt.",
+        },
+        "ferfereh": {
+            "image": "https://user-images.githubusercontent.com/1007567/221448494-d57e08c1-625b-499e-a576-81894f112d6a.jpg",
+            "url": "https://github.com/kamangir/ferfereh",
+            "description": "3d-printed graffiti",
         },
         "Kanata": {
             "image": "https://camo.githubusercontent.com/b8a919b69fe6b8b31dacab8ff8997a8bd43c9fe1c0650eceefa839c150d91831/68747470733a2f2f6b616d616e6769722d7075626c69632e73332e63612d63656e7472616c2d312e616d617a6f6e6177732e636f6d2f43616e616469616e735f7631312e676966",
