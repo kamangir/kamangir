@@ -1,9 +1,15 @@
 from hubble import DESCRIPTION as hubble_DESCRIPTION
+from giza import DESCRIPTION as giza_DESCRIPTION
 from roofAI import DESCRIPTION as roofAI_DESCRIPTION
 
 content = {
     "cols": 4,
     "items": {
+        "giza": {
+            "image": "https://github.com/kamangir/giza/raw/main/assets/giza.png",
+            "url": "https://github.com/kamangir/giza",
+            "description": giza_DESCRIPTION,
+        },
         "roofAI": {
             "image": "https://github.com/kamangir/assets/blob/main/2023-10-28-16-28-36-88493-predict.gif?raw=true",
             "url": "https://github.com/kamangir/roofAI",
