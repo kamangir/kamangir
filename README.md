@@ -1,4 +1,4 @@
-My name is [Arash](http://kamangir.net/); I mix [ai](https://github.com/kamangir/openai), [cloud](https://github.com/kamangir/awesome-bash-cli), [3d printing](https://github.com/kamangir/ferfereh), [deep learning](https://github.com/kamangir/blue-rvr), [code](https://github.com/kamangir/blue-eye), and [digital electronics](https://github.com/kamangir/blue-bracket) into minimal forms that seek survival.
+My name is [Arash](http://kamangir.net/); I mix [ai](https://github.com/kamangir/roofAI), [cloud](https://github.com/kamangir/hubble), and [mathematics](https://github.com/kamangir/giza) into minimal forms that seek survival.
 
 
 | [![image](https://github.com/kamangir/giza/raw/main/assets/giza.png)](https://github.com/kamangir/giza) 🔻 A recipe for AI languages. | [![image](https://github.com/kamangir/assets/blob/main/2023-10-28-16-28-36-88493-predict.gif?raw=true)](https://github.com/kamangir/roofAI) 🏛️  everything AI about roofs. | [![image](https://github.com/kamangir/hubble/raw/main/assets/hst/u4ge0106r_c0m.gif)](https://github.com/kamangir/hubble) 🔭 tools to access and process Hubble Space Telescope imagery and other datasets on AWS Open Data Registry. | [![image](https://user-images.githubusercontent.com/1007567/196573547-b1c71b3b-7fac-4d2c-bba0-a87b063830da.png)](https://github.com/kamangir/Vancouver-Watching) 🌈 bird watching in downtown Vancouver with AI. |
@@ -8,4 +8,4 @@ My name is [Arash](http://kamangir.net/); I mix [ai](https://github.com/kamangir
 | [![image](https://github.com/kamangir/blue-bracket/raw/main/images/blue3-1.jpg)](https://github.com/kamangir/blue-sbc) python + bash bootstrap for edge computing on single board computers. |  |  |  |
 
 ---
-built by [`abcli-7.2435.1-2023-06-aws-batch-a`](https://github.com/kamangir/awesome-bash-cli), based on `kamangir-3.17.1`.
+built by [`abcli-7.2435.1-2023-06-aws-batch-a`](https://github.com/kamangir/awesome-bash-cli), based on `kamangir-3.19.1`.
