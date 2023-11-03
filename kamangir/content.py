@@ -1,6 +1,7 @@
 from hubble import DESCRIPTION as hubble_DESCRIPTION
 from giza import DESCRIPTION as giza_DESCRIPTION
 from roofAI import DESCRIPTION as roofAI_DESCRIPTION
+from vancouver_watching import DESCRIPTION as vancouver_watching_DESCRIPTION
 
 content = {
     "cols": 4,
@@ -28,7 +29,7 @@ content = {
         "Vancouver-Watching": {
             "image": "https://user-images.githubusercontent.com/1007567/196573547-b1c71b3b-7fac-4d2c-bba0-a87b063830da.png",
             "url": "https://github.com/kamangir/Vancouver-Watching",
-            "description": "running object detection on traffic images. 🌈",
+            "description": vancouver_watching_DESCRIPTION,
         },
         "blue-stability": {
             "image": "https://github.com/kamangir/AI-ART/raw/main/blue-stability/blue_stability.gif",
