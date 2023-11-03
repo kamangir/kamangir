@@ -21,15 +21,15 @@ content = {
             "url": "https://github.com/kamangir/hubble",
             "description": hubble_DESCRIPTION,
         },
-        "openai": {
-            "image": "https://github.com/kamangir/openai/raw/main/assets/carrot.png",
-            "url": "https://github.com/kamangir/openai",
-            "description": "experiments w/ the OpenAI API",
-        },
         "Vancouver-Watching": {
             "image": "https://user-images.githubusercontent.com/1007567/196573547-b1c71b3b-7fac-4d2c-bba0-a87b063830da.png",
             "url": "https://github.com/kamangir/Vancouver-Watching",
             "description": vancouver_watching_DESCRIPTION,
+        },
+        "openai": {
+            "image": "https://github.com/kamangir/openai/raw/main/assets/carrot.png",
+            "url": "https://github.com/kamangir/openai",
+            "description": "experiments w/ the OpenAI API",
         },
         "blue-stability": {
             "image": "https://github.com/kamangir/AI-ART/raw/main/blue-stability/blue_stability.gif",
