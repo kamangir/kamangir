@@ -1,3 +1,4 @@
+from abcli import DESCRIPTION as abcli_DESCRIPTION
 from hubble import DESCRIPTION as hubble_DESCRIPTION
 from giza import DESCRIPTION as giza_DESCRIPTION
 from roofAI import DESCRIPTION as roofAI_DESCRIPTION
@@ -40,6 +41,11 @@ content = {
             "image": "https://github.com/kamangir/openai/raw/main/assets/DALL-E.png?raw=1",
             "url": "https://github.com/kamangir/aiart",
             "description": "tools for AiArt.",
+        },
+        "abcli": {
+            "image": "https://github.com/kamangir/awesome-bash-cli/raw/main/assets/marquee.png",
+            "url": "https://github.com/kamangir/awesome-bash-cli",
+            "description": abcli_DESCRIPTION,
         },
         "ferfereh": {
             "image": "https://user-images.githubusercontent.com/1007567/221448494-d57e08c1-625b-499e-a576-81894f112d6a.jpg",

@@ -53,10 +53,12 @@ def update():
             if "--table--" in line
             else [
                 "---",
-                "built by [`{}`](https://github.com/kamangir/awesome-bash-cli), based on `{}-{}`.".format(
+                "built by [`{}`]({}), based on [`{}-{}`]({}).".format(
                     abcli.fullname(),
+                    "https://github.com/kamangir/awesome-bash-cli",
                     NAME,
                     VERSION,
+                    "https://github.com/kamangir/kamangir",
                 ),
             ]
             if "--signature--" in line
