@@ -1,5 +1,5 @@
 import os
-from abcli import file
+from abcli import env, file
 import abcli
 from abcli.plugins import markdown
 from kamangir import NAME, VERSION
@@ -14,14 +14,13 @@ logger = logging.getLogger(__name__)
 def update():
     logger.info("kamangir.update")
 
-    abcli_path_git = os.getenv("abcli_path_git", "")
-    if not abcli_path_git:
+    if not env.abcli_path_git:
         logger.error("-bracket: build: abcli_path_git: variable not found.")
         return False
 
     success, home_md = file.load_text(
         os.path.join(
-            abcli_path_git,
+            env.abcli_path_git,
             "kamangir/assets/home.md",
         )
     )
@@ -49,29 +48,30 @@ def update():
     home_md = reduce(
         lambda x, y: x + y,
         [
-            table
-            if "--table--" in line
-            else [
-                "---",
-                "built by [`{}`]({}), based on [`{}-{}`]({}).".format(
-                    abcli.fullname(),
-                    "https://github.com/kamangir/awesome-bash-cli",
-                    NAME,
-                    VERSION,
-                    "https://github.com/kamangir/kamangir",
-                ),
-            ]
-            if "--signature--" in line
-            else [line]
+            (
+                table
+                if "--table--" in line
+                else (
+                    [
+                        "---",
+                        "built by [`{}`]({}), based on [`{}-{}`]({}).".format(
+                            abcli.fullname(),
+                            "https://github.com/kamangir/awesome-bash-cli",
+                            NAME,
+                            VERSION,
+                            "https://github.com/kamangir/kamangir",
+                        ),
+                    ]
+                    if "--signature--" in line
+                    else [line]
+                )
+            )
             for line in home_md
         ],
         [],
     )
 
     return file.save_text(
-        os.path.join(
-            abcli_path_git,
-            "kamangir/README.md",
-        ),
+        os.path.join(env.abcli_path_git, "kamangir/README.md"),
         home_md,
     )
