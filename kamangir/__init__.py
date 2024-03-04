@@ -1,5 +1,7 @@
 NAME = "kamangir"
 
-VERSION = "3.23.1"
+ICON = "📜"
 
-from .functions import *
+DESCRIPTION = f"{ICON} github/kamangir"
+
+VERSION = "3.24.1"

@@ -1,9 +1,7 @@
 import argparse
-from . import *
-from abcli import logging
-import logging
-
-logger = logging.getLogger(__name__)
+from kamangir import NAME, VERSION
+from kamangir.functions import update
+from kamangir.logger import logger
 
 parser = argparse.ArgumentParser(NAME, description=f"{NAME}-{VERSION}")
 parser.add_argument(

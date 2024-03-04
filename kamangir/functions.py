@@ -1,14 +1,11 @@
 import os
-from abcli import env, file
+from functools import reduce
 import abcli
+from abcli import env, file
 from abcli.plugins import markdown
 from kamangir import NAME, VERSION
 from kamangir.content import content
-from functools import reduce
-from abcli import logging
-import logging
-
-logger = logging.getLogger(__name__)
+from kamangir.logger import logger
 
 
 def update():
