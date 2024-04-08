@@ -59,3 +59,6 @@ function kamangir() {
         $task \
         "${@:2}"
 }
+
+abcli_source_path \
+    $abcli_path_git/kamangir/.abcli/tests
