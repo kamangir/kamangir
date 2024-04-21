@@ -44,10 +44,8 @@ function kamangir() {
             "${@:3}"
 
         if [[ "$do_push" == 1 ]]; then
-            abcli_git push \
-                kamangir \
-                accept_no_issue \
-                "kamangir update"
+            abcli_git kamangir push \
+                "$(python3 -m kamangir version) update"
         else
             abcli_git kamangir status
         fi
