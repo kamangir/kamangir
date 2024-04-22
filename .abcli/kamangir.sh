@@ -47,7 +47,7 @@ function kamangir() {
             abcli_git kamangir push \
                 "$(python3 -m kamangir version) update"
         else
-            abcli_git kamangir status
+            abcli_git kamangir status ~all
         fi
 
         return
