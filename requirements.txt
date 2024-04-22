@@ -1,10 +1,10 @@
 git+https://github.com/kamangir/awesome-bash-cli.git@current#egg=abcli
 git+https://github.com/kamangir/hubble@main#egg=hubble
 git+https://github.com/kamangir/giza@main#egg=giza
-git+https://github.com/kamangir/openai_cli@main#egg=openai_cli
-git+https://github.com/kamangir/notebooks_and_scripts@main#egg=notebooks_and_scripts
+git+https://github.com/kamangir/openai-cli@main#egg=openai_cli
+git+https://github.com/kamangir/notebooks-and-scripts@main#egg=notebooks_and_scripts
 git+https://github.com/kamangir/roofAI@main#egg=roofAI
-git+https://github.com/kamangir/vancouver_watching@main#egg=vancouver_watching
+git+https://github.com/kamangir/vancouver-watching@main#egg=vancouver_watching
 boto3
 pymysql==0.10.1
 pyyaml
