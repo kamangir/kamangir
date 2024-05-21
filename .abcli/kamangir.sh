@@ -4,23 +4,8 @@ function kamangir() {
     local task=$(abcli_unpack_keyword $1 help)
 
     if [ $task == "help" ]; then
-        local task
-        for task in pylint pytest test; do
-            kamangir $task "$@"
-        done
-
         abcli_show_usage "kamangir update [push]" \
             "update https://github.com/kamangir/kamangir."
-
-        [[ "$(abcli_keyword_is $2 verbose)" == true ]] &&
-            python3 -m kamangir --help
-
-        return
-    fi
-
-    local function_name=kamangir_$task
-    if [[ $(type -t $function_name) == "function" ]]; then
-        $function_name "${@:2}"
         return
     fi
 
@@ -53,9 +38,7 @@ function kamangir() {
         return
     fi
 
-    python3 -m kamangir \
-        $task \
-        "${@:2}"
+    python3 -m kamangir "$@"
 }
 
 abcli_source_path \

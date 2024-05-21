@@ -1,6 +1,6 @@
 from abcli import DESCRIPTION as abcli_DESCRIPTION
 from hubble import DESCRIPTION as hubble_DESCRIPTION
-from giza import DESCRIPTION as giza_DESCRIPTION
+from gizai import DESCRIPTION as giza_DESCRIPTION
 from openai_cli import DESCRIPTION as openai_cli_DESCRIPTION
 from notebooks_and_scripts import DESCRIPTION as nbs_DESCRIPTION
 from roofAI import DESCRIPTION as roofAI_DESCRIPTION

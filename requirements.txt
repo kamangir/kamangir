@@ -1,3 +1,4 @@
+blueness
 abcli
 git+https://github.com/kamangir/hubble@main#egg=hubble
 git+https://github.com/kamangir/giza@main#egg=giza
