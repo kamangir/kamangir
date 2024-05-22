@@ -1,7 +1,7 @@
 blueness
 abcli
 git+https://github.com/kamangir/hubble@main#egg=hubble
-git+https://github.com/kamangir/giza@main#egg=giza
+gizai
 git+https://github.com/kamangir/openai-cli@main#egg=openai_cli
 git+https://github.com/kamangir/notebooks-and-scripts@main#egg=notebooks_and_scripts
 git+https://github.com/kamangir/roofAI@main#egg=roofAI
