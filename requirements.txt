@@ -1,5 +1,6 @@
 blueness
 abcli
+articraft
 git+https://github.com/kamangir/hubble@main#egg=hubble
 gizai
 git+https://github.com/kamangir/openai-cli@main#egg=openai_cli

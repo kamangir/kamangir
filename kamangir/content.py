@@ -1,5 +1,6 @@
 from abcli import DESCRIPTION as abcli_DESCRIPTION
-from hubble import DESCRIPTION as hubble_DESCRIPTION
+from articraft import DESCRIPTION as articraft_DESCRIPTION
+from hubblescope import DESCRIPTION as hubble_DESCRIPTION
 from gizai import DESCRIPTION as giza_DESCRIPTION
 from openai_cli import DESCRIPTION as openai_cli_DESCRIPTION
 from notebooks_and_scripts import DESCRIPTION as nbs_DESCRIPTION
@@ -47,7 +48,7 @@ content = {
         "aiart": {
             "image": "https://github.com/kamangir/openai_cli/raw/main/assets/DALL-E.png?raw=1",
             "url": "https://github.com/kamangir/aiart",
-            "description": "tools for AiArt.",
+            "description": articraft_DESCRIPTION,
         },
         "abcli": {
             "image": "https://github.com/kamangir/awesome-bash-cli/raw/main/assets/marquee.png",
