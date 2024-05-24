@@ -2,7 +2,7 @@ from abcli import DESCRIPTION as abcli_DESCRIPTION
 from articraft import DESCRIPTION as articraft_DESCRIPTION
 from hubblescope import DESCRIPTION as hubble_DESCRIPTION
 from gizai import DESCRIPTION as giza_DESCRIPTION
-from openai_cli import DESCRIPTION as openai_cli_DESCRIPTION
+from openai_commands import DESCRIPTION as openai_commands_DESCRIPTION
 from notebooks_and_scripts import DESCRIPTION as nbs_DESCRIPTION
 from roofAI import DESCRIPTION as roofAI_DESCRIPTION
 from vancouver_watching import DESCRIPTION as vancouver_watching_DESCRIPTION
@@ -30,10 +30,10 @@ content = {
             "url": "https://github.com/kamangir/roofAI",
             "description": roofAI_DESCRIPTION,
         },
-        "openai_cli": {
-            "image": "https://github.com/kamangir/openai_cli/raw/main/assets/carrot.png",
-            "url": "https://github.com/kamangir/openai_cli",
-            "description": openai_cli_DESCRIPTION,
+        "openai-commands": {
+            "image": "https://github.com/kamangir/openai-commands/raw/main/assets/carrot.png",
+            "url": "https://github.com/kamangir/openai-commands",
+            "description": openai_commands_DESCRIPTION,
         },
         "hubble": {
             "image": "https://github.com/kamangir/hubble/raw/main/assets/hst/u4ge0106r_c0m.gif",
@@ -46,7 +46,7 @@ content = {
             "description": "bash cli for stability.ai API's stable diffusion inference",
         },
         "aiart": {
-            "image": "https://github.com/kamangir/openai_cli/raw/main/assets/DALL-E.png?raw=1",
+            "image": "https://github.com/kamangir/openai-commands/raw/main/assets/DALL-E.png?raw=1",
             "url": "https://github.com/kamangir/aiart",
             "description": articraft_DESCRIPTION,
         },

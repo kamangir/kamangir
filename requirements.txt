@@ -3,7 +3,7 @@ abcli
 articraft
 git+https://github.com/kamangir/hubble@main#egg=hubble
 gizai
-git+https://github.com/kamangir/openai-cli@main#egg=openai_cli
+openai_commands
 git+https://github.com/kamangir/notebooks-and-scripts@main#egg=notebooks_and_scripts
 git+https://github.com/kamangir/roofAI@main#egg=roofAI
 git+https://github.com/kamangir/vancouver-watching@main#egg=vancouver_watching
