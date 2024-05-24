@@ -4,8 +4,7 @@ function kamangir() {
     local task=$(abcli_unpack_keyword $1 help)
 
     if [ $task == "help" ]; then
-        abcli_show_usage "kamangir update [push]" \
-            "update https://github.com/kamangir/kamangir."
+        kamangir update "$@"
         return
     fi
 
@@ -22,6 +21,13 @@ function kamangir() {
 
     if [ "$task" == "update" ]; then
         local options=$2
+
+        if [ $(abcli_option_int "$options" help 0) == 1 ]; then
+            abcli_show_usage "kamangir update [push]" \
+                "update README.md."
+            return
+        fi
+
         local do_push=$(abcli_option_int "$options" push 0)
 
         python3 -m kamangir \
