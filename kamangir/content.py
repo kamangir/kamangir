@@ -1,11 +1,11 @@
 from abcli import DESCRIPTION as abcli_DESCRIPTION
 from articraft import DESCRIPTION as articraft_DESCRIPTION
-from hubblescope import DESCRIPTION as hubble_DESCRIPTION
-from gizai import DESCRIPTION as giza_DESCRIPTION
-from openai_commands import DESCRIPTION as openai_commands_DESCRIPTION
 from blue_stability import DESCRIPTION as blue_stability_DESCRIPTION
+from hubblescope import DESCRIPTION as hubble_DESCRIPTION
 from ferfereh import DESCRIPTION as ferfereh_DESCRIPTION
+from gizai import DESCRIPTION as giza_DESCRIPTION
 from notebooks_and_scripts import DESCRIPTION as nbs_DESCRIPTION
+from openai_commands import DESCRIPTION as openai_commands_DESCRIPTION
 from roofAI import DESCRIPTION as roofAI_DESCRIPTION
 from vancouver_watching import DESCRIPTION as vancouver_watching_DESCRIPTION
 
