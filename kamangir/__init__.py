@@ -4,4 +4,4 @@ ICON = "📜"
 
 DESCRIPTION = f"{ICON} github/kamangir"
 
-VERSION = "3.56.1"
+VERSION = "3.57.1"
