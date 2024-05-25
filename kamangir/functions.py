@@ -27,7 +27,7 @@ def update():
     items = [
         "[![image]({})]({}) {}".format(
             item["image"],
-            item["url"],
+            f"https://github.com/kamangir/{name}",
             item["description"],
         )
         for name, item in content["items"].items()
