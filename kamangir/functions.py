@@ -12,7 +12,7 @@ def update():
     logger.info("kamangir.update")
 
     if not env.abcli_path_git:
-        logger.error("-bracket: build: abcli_path_git: variable not found.")
+        logger.error("abcli_path_git: variable not found.")
         return False
 
     success, home_md = file.load_text(
