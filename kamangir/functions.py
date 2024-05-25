@@ -1,25 +1,21 @@
 import os
 from functools import reduce
 import abcli
-from abcli import env, file
+from abcli import file
 from abcli.plugins import markdown
 from kamangir import NAME, VERSION
 from kamangir.content import content
 from kamangir.logger import logger
 
 
-def update():
-    logger.info("kamangir.update")
+def update(filename: str = ""):
+    if not filename:
+        filename = os.path.join(file.path(__file__), "../README.md")
 
-    if not env.abcli_path_git:
-        logger.error("abcli_path_git: variable not found.")
-        return False
+    logger.info(f"{NAME}.update: {filename}")
 
     success, home_md = file.load_text(
-        os.path.join(
-            env.abcli_path_git,
-            "kamangir/kamangir/assets/home.md",
-        )
+        os.path.join(file.path(__file__), "./assets/home.md"),
     )
     if not success:
         return success
@@ -68,7 +64,4 @@ def update():
         [],
     )
 
-    return file.save_text(
-        os.path.join(env.abcli_path_git, "kamangir/README.md"),
-        home_md,
-    )
+    return file.save_text(filename, home_md)
