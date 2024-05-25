@@ -18,7 +18,7 @@ def update():
     success, home_md = file.load_text(
         os.path.join(
             env.abcli_path_git,
-            "kamangir/assets/home.md",
+            "kamangir/kamangir/assets/home.md",
         )
     )
     if not success:

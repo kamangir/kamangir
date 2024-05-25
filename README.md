@@ -8,4 +8,4 @@ My name is [Arash](http://kamangir.net/); I mix [ai](https://github.com/kamangir
 | [![image](https://github.com/kamangir/blue-rvr/raw/master/abcli/assets/marquee.jpeg)](https://github.com/kamangir/blue-rvr) a bash cli for Sphero RVR SDK - runs deep learning vision models on a Raspberry Pi using Python and TensorFlow. | [![image](https://github.com/kamangir/blue-bracket/raw/main/images/marquee.jpg)](https://github.com/kamangir/blue-bracket) a parametric 3d-printed bracket to build hardware for machine vision & ai on raspberry pi and jetson nano on the edge. | [![image](https://github.com/kamangir/blue-bracket/raw/main/images/blue3-1.jpg)](https://github.com/kamangir/blue-sbc) python + bash bootstrap for edge computing on single board computers. |  |
 
 ---
-built by [`abcli-8.225.1-current`](https://github.com/kamangir/awesome-bash-cli), based on [`kamangir-3.64.1`](https://github.com/kamangir/kamangir).
+built by [`abcli-8.225.1-current`](https://github.com/kamangir/awesome-bash-cli), based on [`kamangir-3.65.1`](https://github.com/kamangir/kamangir).
