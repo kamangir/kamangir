@@ -3,6 +3,8 @@ from articraft import DESCRIPTION as articraft_DESCRIPTION
 from hubblescope import DESCRIPTION as hubble_DESCRIPTION
 from gizai import DESCRIPTION as giza_DESCRIPTION
 from openai_commands import DESCRIPTION as openai_commands_DESCRIPTION
+from blue_stability import DESCRIPTION as blue_stability_DESCRIPTION
+from ferfereh import DESCRIPTION as ferfereh_DESCRIPTION
 from notebooks_and_scripts import DESCRIPTION as nbs_DESCRIPTION
 from roofAI import DESCRIPTION as roofAI_DESCRIPTION
 from vancouver_watching import DESCRIPTION as vancouver_watching_DESCRIPTION
@@ -43,14 +45,14 @@ content = {
         "blue-stability": {
             "image": "https://github.com/kamangir/AI-ART/raw/main/blue-stability/blue_stability.gif",
             "url": "https://github.com/kamangir/blue-stability",
-            "description": "bash cli for stability.ai API's stable diffusion inference",
+            "description": blue_stability_DESCRIPTION,
         },
         "aiart": {
             "image": "https://github.com/kamangir/openai-commands/raw/main/assets/DALL-E.png?raw=1",
             "url": "https://github.com/kamangir/aiart",
             "description": articraft_DESCRIPTION,
         },
-        "abcli": {
+        "awesome-bash-cli": {
             "image": "https://github.com/kamangir/awesome-bash-cli/raw/main/assets/marquee.png",
             "url": "https://github.com/kamangir/awesome-bash-cli",
             "description": abcli_DESCRIPTION,
@@ -58,7 +60,7 @@ content = {
         "ferfereh": {
             "image": "https://user-images.githubusercontent.com/1007567/221448494-d57e08c1-625b-499e-a576-81894f112d6a.jpg",
             "url": "https://github.com/kamangir/ferfereh",
-            "description": "3d-printed graffiti",
+            "description": ferfereh_DESCRIPTION,
         },
         "Kanata": {
             "image": "https://kamangir-public.s3.ca-central-1.amazonaws.com/Canadians_v11.gif",

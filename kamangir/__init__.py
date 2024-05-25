@@ -2,6 +2,6 @@ NAME = "kamangir"
 
 ICON = "📜"
 
-DESCRIPTION = f"{ICON} github/kamangir"
+DESCRIPTION = f"{ICON} github/kamangir."
 
-VERSION = "3.60.1"
+VERSION = "3.61.1"
