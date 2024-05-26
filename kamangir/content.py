@@ -16,7 +16,7 @@ content = {
             "image": "https://github.com/kamangir/assets/raw/main/nbs/3x4.jpg?raw=true",
             "description": nbs_DESCRIPTION,
         },
-        "Vancouver-Watching": {
+        "vancouver-watching": {
             "image": "https://user-images.githubusercontent.com/1007567/196573547-b1c71b3b-7fac-4d2c-bba0-a87b063830da.png",
             "description": vancouver_watching_DESCRIPTION,
         },
