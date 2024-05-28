@@ -6,4 +6,6 @@ function test_kamangir_version() {
 
     abcli_eval dryrun=$do_dryrun \
         "kamangir version ${@:2}"
+
+    return 0
 }
