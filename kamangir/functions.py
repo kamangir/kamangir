@@ -22,21 +22,29 @@ def update(filename: str = ""):
         return success
 
     for name, item in content["items"].items():
-        if "module" in item:
-            module = item["module"]
-            item["description"] = module.DESCRIPTION
-            item["image"] = module.MARQUEE
-            item["name"] = f"{module.NAME}-{module.VERSION}"
-        else:
+        if "module" not in item:
             item["name"] = name
+            item["pypi"] = ""
+            continue
+
+        module = item["module"]
+        item["description"] = module.DESCRIPTION
+        item["image"] = module.MARQUEE
+        item["name"] = f"{module.NAME}-{module.VERSION}"
+        item["pypi"] = (
+            " [![PyPI version](https://img.shields.io/pypi/v/{}.svg)](https://pypi.org/project/{}/)".format(
+                module.NAME, module.NAME
+            ),
+        )
 
     items = [
-        "[![image]({})]({}) [`{}`]({}) - {}".format(
+        "[![image]({})]({}) [`{}`]({}) - {}{}".format(
             item["image"],
             f"https://github.com/kamangir/{name}",
             item["name"],
             f"https://github.com/kamangir/{name}",
             item["description"],
+            item["pypi"],
         )
         for name, item in content["items"].items()
         if name != "template"
