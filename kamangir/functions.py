@@ -1,6 +1,7 @@
 import os
 from functools import reduce
 import abcli
+import copy
 from abcli import file
 from abcli.plugins import markdown
 from kamangir import NAME, VERSION
@@ -20,10 +21,20 @@ def update(filename: str = ""):
     if not success:
         return success
 
+    for name, item in content["items"].items():
+        if "module" in item:
+            module = item["module"]
+            item["description"] = module.DESCRIPTION
+            item["image"] = module.MARQUEE
+            item["name"] = f"{module.NAME}-{module.VERSION}"
+        else:
+            item["name"] = name
+
     items = [
-        "[![image]({})]({}) {}".format(
+        "[![image]({})]({}) `{}` - {}".format(
             item["image"],
             f"https://github.com/kamangir/{name}",
+            item["name"],
             item["description"],
         )
         for name, item in content["items"].items()
