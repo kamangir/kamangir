@@ -31,7 +31,7 @@ def update(filename: str = ""):
             item["name"] = name
 
     items = [
-        "[![image]({})]({}) [`{}`]() - {}".format(
+        "[![image]({})]({}) [`{}`]({}) - {}".format(
             item["image"],
             f"https://github.com/kamangir/{name}",
             item["name"],
