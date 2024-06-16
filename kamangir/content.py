@@ -8,10 +8,15 @@ from notebooks_and_scripts import DESCRIPTION as nbs_DESCRIPTION
 from openai_commands import DESCRIPTION as openai_commands_DESCRIPTION
 from roofAI import DESCRIPTION as roofAI_DESCRIPTION
 from vancouver_watching import DESCRIPTION as vancouver_watching_DESCRIPTION
+from blue_geo import DESCRIPTION as blue_geo_DESCRIPTION
 
 content = {
     "cols": 4,
     "items": {
+        "blue_geo": {
+            "image": "https://github.com/kamangir/assets/raw/main/nbs/ukraine-timemap/QGIS.png?raw=true",
+            "description": blue_geo_DESCRIPTION,
+        },
         "notebooks-and-scripts": {
             "image": "https://github.com/kamangir/assets/raw/main/nbs/3x4.jpg?raw=true",
             "description": nbs_DESCRIPTION,
