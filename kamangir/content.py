@@ -11,7 +11,7 @@ import roofAI
 import vancouver_watching
 
 content = {
-    "cols": 4,
+    "cols": 3,
     "items": {
         "blue-geo": {
             "module": blue_geo,
