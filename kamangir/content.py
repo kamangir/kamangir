@@ -13,7 +13,7 @@ from blue_geo import DESCRIPTION as blue_geo_DESCRIPTION
 content = {
     "cols": 4,
     "items": {
-        "blue_geo": {
+        "blue-geo": {
             "image": "https://github.com/kamangir/assets/raw/main/nbs/ukraine-timemap/QGIS.png?raw=true",
             "description": blue_geo_DESCRIPTION,
         },
