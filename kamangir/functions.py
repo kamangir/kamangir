@@ -30,7 +30,7 @@ def update(filename: str = ""):
         module = item["module"]
         item["description"] = module.DESCRIPTION
         item["image"] = module.MARQUEE
-        item["name"] = f"{module.NAME}-{module.VERSION}"
+        item["name"] = module.NAME
         item["pypi"] = (
             " [![PyPI version](https://img.shields.io/pypi/v/{}.svg)](https://pypi.org/project/{}/)".format(
                 module.NAME, module.NAME
@@ -38,13 +38,13 @@ def update(filename: str = ""):
         )
 
     items = [
-        "[![image]({})]({}) [`{}`]({}) - {}{}".format(
+        "[![image]({})]({}) [`{}`]({}){}\n{}".format(
             item["image"],
             f"https://github.com/kamangir/{name}",
             item["name"],
             f"https://github.com/kamangir/{name}",
-            item["description"],
             item["pypi"],
+            item["description"],
         )
         for name, item in content["items"].items()
         if name != "template"
