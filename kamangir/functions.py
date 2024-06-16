@@ -38,13 +38,13 @@ def update(filename: str = ""):
         )
 
     items = [
-        "[![image]({})]({}) {} [`{}`]({}){}".format(
-            item["image"],
-            f"https://github.com/kamangir/{name}",
-            item["description"],
+        "[`{}`]({}){} [![image]({})]({}) {}".format(
             item["name"],
             f"https://github.com/kamangir/{name}",
             item["pypi"],
+            item["image"],
+            f"https://github.com/kamangir/{name}",
+            item["description"],
         )
         for name, item in content["items"].items()
         if name != "template"
