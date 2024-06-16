@@ -1,4 +1,5 @@
 blueness
+blue_geo
 blue_stability
 abcli
 articraft
