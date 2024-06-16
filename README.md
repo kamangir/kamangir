@@ -9,7 +9,7 @@ My name is [Arash](http://kamangir.net/); I mix [ai](https://github.com/kamangir
 | [`blue-sbc`](https://github.com/kamangir/blue-sbc) [![image](https://github.com/kamangir/blue-bracket/raw/main/images/blue3-1.jpg)](https://github.com/kamangir/blue-sbc) python + bash bootstrap for edge computing on single board computers. |  |  |
 
 ---
-built by [`abcli-9.104.1-current`](https://github.com/kamangir/awesome-bash-cli), based on [`kamangir-3.93.1`](https://github.com/kamangir/kamangir).
+built by [`abcli-9.104.1-current`](https://github.com/kamangir/awesome-bash-cli), based on [`kamangir-3.94.1`](https://github.com/kamangir/kamangir).
 
 [![PyPI version](https://img.shields.io/pypi/v/kamangir.svg)](https://pypi.org/project/kamangir/)
 

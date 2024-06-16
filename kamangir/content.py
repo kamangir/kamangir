@@ -47,32 +47,31 @@ content = {
             "module": ferfereh,
         },
         "Kanata": {
-            "image": "https://kamangir-public.s3.ca-central-1.amazonaws.com/Canadians_v11.gif",
             "legacy": True,
+            "image": "https://kamangir-public.s3.ca-central-1.amazonaws.com/Canadians_v11.gif",
             "description": "a multi-screen video feed that is comprised of a matrix of animated faces that slide to the right.",
         },
         "dec82": {
-            "image": "https://github.com/kamangir/blue-bracket/raw/main/images/dec82-6.jpg",
             "legacy": True,
+            "image": "https://github.com/kamangir/blue-bracket/raw/main/images/dec82-6.jpg",
             "description": "A wearable Raspberry Pi + Grove / Qwiic + Camera.",
         },
         "blue-rvr": {
-            "image": "https://github.com/kamangir/blue-rvr/raw/master/abcli/assets/marquee.jpeg",
             "legacy": True,
+            "image": "https://github.com/kamangir/blue-rvr/raw/master/abcli/assets/marquee.jpeg",
             "description": "a bash cli for Sphero RVR SDK - runs deep learning vision models on a Raspberry Pi using Python and TensorFlow.",
         },
         "blue-bracket": {
-            "image": "https://github.com/kamangir/blue-bracket/raw/main/images/marquee.jpg",
             "legacy": True,
+            "image": "https://github.com/kamangir/blue-bracket/raw/main/images/marquee.jpg",
             "description": "a parametric 3d-printed bracket to build hardware for machine vision & ai on raspberry pi and jetson nano on the edge.",
         },
         "blue-sbc": {
-            "image": "https://github.com/kamangir/blue-bracket/raw/main/images/blue3-1.jpg",
             "legacy": True,
+            "image": "https://github.com/kamangir/blue-bracket/raw/main/images/blue3-1.jpg",
             "description": "python + bash bootstrap for edge computing on single board computers.",
         },
         "template": {
-            "image": "TBA",
             "module": abcli,
         },
     },
