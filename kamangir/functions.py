@@ -34,7 +34,7 @@ def update(filename: str = ""):
         item["pypi"] = (
             " [![PyPI version](https://img.shields.io/pypi/v/{}.svg)](https://pypi.org/project/{}/)".format(
                 module.NAME, module.NAME
-            ),
+            )
         )
 
     items = [
