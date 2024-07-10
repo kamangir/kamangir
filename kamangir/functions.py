@@ -23,12 +23,14 @@ def update(filename: str = ""):
 
     for name, item in content["items"].items():
         if "module" not in item:
+            item["icon"] = ""
             item["name"] = name
             item["pypi"] = ""
             continue
 
         module = item["module"]
-        item["description"] = module.DESCRIPTION
+        item["description"] = module.DESCRIPTION.replace(module.ICON, "").strip()
+        item["icon"] = f"{module.ICON} "
         item["image"] = module.MARQUEE
         item["name"] = module.NAME
         item["pypi"] = (
@@ -38,13 +40,14 @@ def update(filename: str = ""):
         )
 
     items = [
-        "[`{}`]({}){} [![image]({})]({}) {}".format(
-            item["name"],
+        "{}[`{}`]({}) [![image]({})]({}) {} {}".format(
+            item["icon"],
+            item["name"].replace("_", "-"),
             f"https://github.com/kamangir/{name}",
-            item["pypi"],
             item["image"],
             f"https://github.com/kamangir/{name}",
             item["description"],
+            item["pypi"],
         )
         for name, item in content["items"].items()
         if name != "template"
