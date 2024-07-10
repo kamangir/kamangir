@@ -1,6 +1,8 @@
 import abcli
 import articraft
 import blue_geo
+import blue_options
+import blue_plugin
 import blue_stability
 import hubblescope
 import ferfereh
@@ -16,14 +18,14 @@ content = {
         "blue-geo": {
             "module": blue_geo,
         },
-        "notebooks-and-scripts": {
-            "module": notebooks_and_scripts,
+        "hubble": {
+            "module": hubblescope,
+        },
+        "blue-options": {
+            "module": blue_options,
         },
         "vancouver-watching": {
             "module": vancouver_watching,
-        },
-        "giza": {
-            "module": gizai,
         },
         "roofAI": {
             "module": roofAI,
@@ -31,8 +33,11 @@ content = {
         "openai-commands": {
             "module": openai_commands,
         },
-        "hubble": {
-            "module": hubblescope,
+        "notebooks-and-scripts": {
+            "module": notebooks_and_scripts,
+        },
+        "giza": {
+            "module": gizai,
         },
         "blue-stability": {
             "module": blue_stability,
@@ -42,6 +47,9 @@ content = {
         },
         "awesome-bash-cli": {
             "module": abcli,
+        },
+        "blue-plugin": {
+            "module": blue_plugin,
         },
         "ferfereh": {
             "module": ferfereh,
