@@ -1,7 +1,6 @@
 import os
 from functools import reduce
 import abcli
-import copy
 from abcli import file
 from abcli.plugins import markdown
 from kamangir import NAME, VERSION
@@ -14,12 +13,6 @@ def update(filename: str = ""):
         filename = os.path.join(file.path(__file__), "../README.md")
 
     logger.info(f"{NAME}.update: {filename}")
-
-    success, home_md = file.load_text(
-        os.path.join(file.path(__file__), "./assets/home.md"),
-    )
-    if not success:
-        return success
 
     for name, item in content["items"].items():
         if "module" not in item:
@@ -61,30 +54,22 @@ def update(filename: str = ""):
 
     table = markdown.generate_table(items, content["cols"])
 
-    home_md = reduce(
-        lambda x, y: x + y,
-        [
-            (
-                table
-                if "--table--" in line
-                else (
-                    [
-                        "---",
-                        "built by [`{}`]({}), based on [`{}-{}`]({}).".format(
-                            abcli.fullname(),
-                            "https://github.com/kamangir/awesome-bash-cli",
-                            NAME,
-                            VERSION,
-                            "https://github.com/kamangir/kamangir",
-                        ),
-                    ]
-                    if "--signature--" in line
-                    else [line]
-                )
-            )
-            for line in home_md
-        ],
-        [],
-    )
+    signature = [
+        "---",
+        "built by [`{}`]({}), based on [`{}-{}`]({}).".format(
+            abcli.fullname(),
+            "https://github.com/kamangir/awesome-bash-cli",
+            NAME,
+            VERSION,
+            "https://github.com/kamangir/kamangir",
+        ),
+    ]
 
-    return file.save_text(filename, home_md)
+    return file.build_from_template(
+        os.path.join(file.path(__file__), "./assets/home.md"),
+        {
+            "--table--": table,
+            "--signature": signature,
+        },
+        filename,
+    )
