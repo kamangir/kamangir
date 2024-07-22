@@ -4,6 +4,6 @@ ICON = "📜"
 
 DESCRIPTION = f"{ICON} github/kamangir."
 
-VERSION = "3.103.1"
+VERSION = "3.104.1"
 
 REPO_NAME = "kamangir"

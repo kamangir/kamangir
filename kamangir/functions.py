@@ -39,7 +39,7 @@ def update(filename: str = ""):
             )
         )
 
-    items = 3 * [" "] + [
+    items = [
         "{}[`{}`]({}) [![image]({})]({}) {} {}".format(
             item["icon"],
             item["name"].replace("_", "-"),
