@@ -8,11 +8,11 @@ from kamangir.content import content
 from kamangir.logger import logger
 
 
-def update(filename: str = ""):
+def build(filename: str = ""):
     if not filename:
         filename = os.path.join(file.path(__file__), "../README.md")
 
-    logger.info(f"{NAME}.update: {filename}")
+    logger.info(f"{NAME}.build: {filename}")
 
     for name, item in content["items"].items():
         if "module" not in item:

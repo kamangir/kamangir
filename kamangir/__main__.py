@@ -1,6 +1,6 @@
 import argparse
 from kamangir import NAME, VERSION
-from kamangir.functions import update
+from kamangir.functions import build
 from kamangir.logger import logger
 from blueness.argparse.generic import sys_exit
 
@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser(NAME, description=f"{NAME}-{VERSION}")
 parser.add_argument(
     "task",
     type=str,
-    help="update|version",
+    help="build|version",
 )
 args = parser.parse_args()
 
@@ -16,8 +16,8 @@ success = False
 if args.task == "version":
     print(f"{NAME}-{VERSION}")
     success = True
-elif args.task == "update":
-    success = update()
+elif args.task == "build":
+    success = build()
 else:
     success = None
 
