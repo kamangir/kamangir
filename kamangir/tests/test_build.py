@@ -1,4 +1,4 @@
-from kamangir.functions import build
+from kamangir.README import build
 
 
 def test_build():
