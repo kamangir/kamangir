@@ -84,3 +84,21 @@ content = {
         },
     },
 }
+
+for name, item in content["items"].items():
+    if "module" not in item:
+        item["icon"] = ""
+        item["name"] = name
+        item["pypi"] = ""
+        continue
+
+    module = item["module"]
+    item["description"] = module.DESCRIPTION.replace(module.ICON, "").strip()
+    item["icon"] = f"{module.ICON} "
+    item["image"] = module.MARQUEE
+    item["name"] = module.NAME
+    item["pypi"] = (
+        " [![PyPI version](https://img.shields.io/pypi/v/{}.svg)](https://pypi.org/project/{}/)".format(
+            module.NAME, module.NAME
+        )
+    )

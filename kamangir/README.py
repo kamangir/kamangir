@@ -1,5 +1,4 @@
 import os
-from functools import reduce
 import abcli
 from abcli import file
 from abcli.file.functions import build_from_template
@@ -13,25 +12,14 @@ def build(filename: str = ""):
     if not filename:
         filename = os.path.join(file.path(__file__), "../README.md")
 
-    logger.info(f"{NAME}.build: {filename}")
-
-    for name, item in content["items"].items():
-        if "module" not in item:
-            item["icon"] = ""
-            item["name"] = name
-            item["pypi"] = ""
-            continue
-
-        module = item["module"]
-        item["description"] = module.DESCRIPTION.replace(module.ICON, "").strip()
-        item["icon"] = f"{module.ICON} "
-        item["image"] = module.MARQUEE
-        item["name"] = module.NAME
-        item["pypi"] = (
-            " [![PyPI version](https://img.shields.io/pypi/v/{}.svg)](https://pypi.org/project/{}/)".format(
-                module.NAME, module.NAME
-            )
+    logger.info(
+        "{}.build_README: {}: {} item(s) loaded: {}".format(
+            NAME,
+            filename,
+            len(content["items"]),
+            ", ".join(list(content["items"].keys())),
         )
+    )
 
     items = [
         "{}[`{}`]({}) [![image]({})]({}) {} {}".format(
@@ -46,12 +34,6 @@ def build(filename: str = ""):
         for name, item in content["items"].items()
         if name != "template"
     ]
-    logger.info(
-        "{} item(s) loaded: {}".format(
-            len(content["items"]),
-            ", ".join(list(content["items"].keys())),
-        )
-    )
 
     table = markdown.generate_table(items, content["cols"])
 
@@ -67,7 +49,7 @@ def build(filename: str = ""):
     ]
 
     return file.build_from_template(
-        os.path.join(file.path(__file__), "./assets/home.md"),
+        os.path.join(file.path(__file__), "./assets/README.md"),
         {
             "--table--": table,
             "--signature": signature,
