@@ -3,8 +3,8 @@
 function kamangir() {
     local task=$(abcli_unpack_keyword $1 help)
 
-    if [ $task == "help" ]; then
-        kamangir_update "$@"
+    if [ "$task" == "help" ]; then
+        kamangir build_README "$@"
         return
     fi
 
