@@ -8,13 +8,6 @@ function kamangir() {
         return
     fi
 
-    if [ "$task" == "build_README" ]; then
-        abcli_build_README \
-            plugin=kamangir,$2 \
-            "${@:3}"
-        return
-    fi
-
     abcli_generic_task \
         plugin=kamangir,task=$task \
         "${@:2}"
