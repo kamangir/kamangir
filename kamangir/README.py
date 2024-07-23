@@ -7,13 +7,15 @@ from kamangir import NAME, VERSION
 from kamangir.content import content
 from kamangir.logger import logger
 
+NAME = f"{NAME}.README"
+
 
 def build(filename: str = ""):
     if not filename:
         filename = os.path.join(file.path(__file__), "../README.md")
 
     logger.info(
-        "{}.build_README: {}: {} item(s) loaded: {}".format(
+        "{}.build: {}: {} item(s) loaded: {}".format(
             NAME,
             filename,
             len(content["items"]),
