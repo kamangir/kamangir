@@ -10,7 +10,7 @@ My name is [Arash](http://kamangir.net/); I mix [ai](https://github.com/kamangir
 | [`blue-rvr`](https://github.com/kamangir/blue-rvr) [![image](https://github.com/kamangir/blue-rvr/raw/master/abcli/assets/marquee.jpeg)](https://github.com/kamangir/blue-rvr) a bash cli for Sphero RVR SDK - runs deep learning vision models on a Raspberry Pi using Python and TensorFlow.  | [`blue-bracket`](https://github.com/kamangir/blue-bracket) [![image](https://github.com/kamangir/blue-bracket/raw/main/images/marquee.jpg)](https://github.com/kamangir/blue-bracket) a parametric 3d-printed bracket to build hardware for machine vision & ai on raspberry pi and jetson nano on the edge.  | [`blue-sbc`](https://github.com/kamangir/blue-sbc) [![image](https://github.com/kamangir/blue-bracket/raw/main/images/blue3-1.jpg)](https://github.com/kamangir/blue-sbc) python + bash bootstrap for edge computing on single board computers.  |
 
 ---
-built by [`abcli-9.187.1-current`](https://github.com/kamangir/awesome-bash-cli), based on [`kamangir.README-3.128.1`](https://github.com/kamangir/kamangir).
+built by [`abcli-9.192.1-current`](https://github.com/kamangir/awesome-bash-cli), based on [`kamangir-3.129.1`](https://github.com/kamangir/kamangir).
 
 [![PyPI version](https://img.shields.io/pypi/v/kamangir.svg)](https://pypi.org/project/kamangir/)
 

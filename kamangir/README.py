@@ -1,23 +1,18 @@
 import os
-import abcli
+from blueness import module
 from abcli import file
-from abcli.file.functions import build_from_template
-from abcli.plugins import markdown
-from kamangir import NAME, VERSION
+from abcli.plugins.README import build as build_README
+from kamangir import NAME, VERSION, REPO_NAME
 from kamangir.content import content
 from kamangir.logger import logger
 
-NAME = f"{NAME}.README"
+MY_NAME = module.name(__file__, NAME)
 
 
-def build(filename: str = ""):
-    if not filename:
-        filename = os.path.join(file.path(__file__), "../README.md")
-
+def build():
     logger.info(
-        "{}.build: {}: {} item(s) loaded: {}".format(
-            NAME,
-            filename,
+        "{}.build {} item(s): {}".format(
+            MY_NAME,
             len(content["items"]),
             ", ".join(list(content["items"].keys())),
         )
@@ -37,24 +32,18 @@ def build(filename: str = ""):
         if name != "template"
     ]
 
-    table = markdown.generate_table(items, content["cols"])
-
-    signature = [
-        "---",
-        "built by [`{}`]({}), based on [`{}-{}`]({}).".format(
-            abcli.fullname(),
-            "https://github.com/kamangir/awesome-bash-cli",
-            NAME,
-            VERSION,
-            "https://github.com/kamangir/kamangir",
+    return build_README(
+        items=items,
+        cols=content["cols"],
+        template_filename=os.path.join(
+            file.path(__file__),
+            "./assets/README.md",
         ),
-    ]
-
-    return file.build_from_template(
-        os.path.join(file.path(__file__), "./assets/README.md"),
-        {
-            "--table--": table,
-            "--signature": signature,
-        },
-        filename,
+        filename=os.path.join(
+            file.path(__file__),
+            "../README.md",
+        ),
+        NAME=NAME,
+        VERSION=VERSION,
+        REPO_NAME=REPO_NAME,
     )
