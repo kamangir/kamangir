@@ -1,4 +1,3 @@
-import argparse
 from kamangir import NAME, VERSION, DESCRIPTION, ICON
 from kamangir import README
 from kamangir.logger import logger
