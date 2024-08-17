@@ -2,7 +2,7 @@ import os
 from blueness import module
 from abcli import file
 from abcli.plugins.README import build as build_README
-from kamangir import NAME, VERSION, REPO_NAME
+from kamangir import NAME, VERSION, REPO_NAME, ICON
 from kamangir.content import content
 from kamangir.logger import logger
 
@@ -35,14 +35,8 @@ def build():
     return build_README(
         items=items,
         cols=content["cols"],
-        template_filename=os.path.join(
-            file.path(__file__),
-            "./assets/README.md",
-        ),
-        filename=os.path.join(
-            file.path(__file__),
-            "../README.md",
-        ),
+        path=file.path(__file__),
+        ICON=ICON,
         NAME=NAME,
         VERSION=VERSION,
         REPO_NAME=REPO_NAME,

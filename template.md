@@ -2,6 +2,6 @@ My name is [Arash](http://kamangir.net/); I mix [ai](https://github.com/kamangir
 
 --table--
 
---signature--
+---
 
-[![PyPI version](https://img.shields.io/pypi/v/kamangir.svg)](https://pypi.org/project/kamangir/)
+--signature--
