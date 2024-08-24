@@ -35,7 +35,7 @@ def build():
     return build_README(
         items=items,
         cols=content["cols"],
-        path=file.path(__file__),
+        path=os.path.join(file.path(__file__), ".."),
         ICON=ICON,
         NAME=NAME,
         VERSION=VERSION,
