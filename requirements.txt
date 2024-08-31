@@ -11,7 +11,7 @@ hubblescope
 notebooks_and_scripts
 numpy
 openai_commands
-pymysql==0.10.1
+pymysql
 pyyaml
 pylint
 pytest

@@ -15,4 +15,4 @@ to use on [AWS SageMaker](https://aws.amazon.com/sagemaker/) replace `<plugin-na
 
 [![pylint](https://github.com/kamangir/kamangir/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/kamangir/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/kamangir/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/kamangir/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/kamangir/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/kamangir/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/kamangir.svg)](https://pypi.org/project/kamangir/)
 
-built by 🪄 [`abcli-9.250.1-current`](https://github.com/kamangir/awesome-bash-cli), based on 📜 [`kamangir-3.133.1`](https://github.com/kamangir/kamangir).
+built by 🪄 [`abcli-9.257.1-current`](https://github.com/kamangir/awesome-bash-cli), based on 📜 [`kamangir-3.134.1`](https://github.com/kamangir/kamangir).
