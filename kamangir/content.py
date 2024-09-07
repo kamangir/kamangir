@@ -1,6 +1,8 @@
 import abcli
 import articraft
+from blue_objects.env import ABCLI_PUBLIC_PREFIX
 import blue_geo
+import blue_objects
 import blue_options
 import blue_plugin
 import blue_stability
@@ -23,6 +25,9 @@ content = {
         },
         "blue-options": {
             "module": blue_options,
+        },
+        "blue-objects": {
+            "module": blue_objects,
         },
         "vancouver-watching": {
             "module": vancouver_watching,
@@ -56,7 +61,7 @@ content = {
         },
         "Kanata": {
             "legacy": True,
-            "image": "https://kamangir-public.s3.ca-central-1.amazonaws.com/Canadians_v11.gif",
+            "image": f"{ABCLI_PUBLIC_PREFIX}/Canadians_v11.gif",
             "description": "a multi-screen video feed that is comprised of a matrix of animated faces that slide to the right.",
         },
         "dec82": {
