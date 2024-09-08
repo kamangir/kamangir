@@ -35,15 +35,6 @@ content = {
         "notebooks-and-scripts": {
             "module": notebooks_and_scripts,
         },
-        "blue-options": {
-            "module": blue_options,
-        },
-        "blue-objects": {
-            "module": blue_objects,
-        },
-        "blue-plugin": {
-            "module": blue_plugin,
-        },
         "giza": {
             "module": gizai,
         },
@@ -52,6 +43,15 @@ content = {
         },
         "ferfereh": {
             "module": ferfereh,
+        },
+        "blue-options": {
+            "module": blue_options,
+        },
+        "blue-objects": {
+            "module": blue_objects,
+        },
+        "blue-plugin": {
+            "module": blue_plugin,
         },
         "blue-stability": {
             "module": blue_stability,
