@@ -23,17 +23,20 @@ content = {
         "hubble": {
             "module": hubblescope,
         },
+        "vancouver-watching": {
+            "module": vancouver_watching,
+        },
+        "roofAI": {
+            "module": roofAI,
+        },
         "blue-options": {
             "module": blue_options,
         },
         "blue-objects": {
             "module": blue_objects,
         },
-        "vancouver-watching": {
-            "module": vancouver_watching,
-        },
-        "roofAI": {
-            "module": roofAI,
+        "blue-plugin": {
+            "module": blue_plugin,
         },
         "openai-commands": {
             "module": openai_commands,
@@ -52,9 +55,6 @@ content = {
         },
         "awesome-bash-cli": {
             "module": abcli,
-        },
-        "blue-plugin": {
-            "module": blue_plugin,
         },
         "ferfereh": {
             "module": ferfereh,
