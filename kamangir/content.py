@@ -29,6 +29,12 @@ content = {
         "roofAI": {
             "module": roofAI,
         },
+        "openai-commands": {
+            "module": openai_commands,
+        },
+        "notebooks-and-scripts": {
+            "module": notebooks_and_scripts,
+        },
         "blue-options": {
             "module": blue_options,
         },
@@ -38,26 +44,20 @@ content = {
         "blue-plugin": {
             "module": blue_plugin,
         },
-        "openai-commands": {
-            "module": openai_commands,
-        },
-        "notebooks-and-scripts": {
-            "module": notebooks_and_scripts,
-        },
         "giza": {
             "module": gizai,
-        },
-        "blue-stability": {
-            "module": blue_stability,
-        },
-        "aiart": {
-            "module": articraft,
         },
         "awesome-bash-cli": {
             "module": abcli,
         },
         "ferfereh": {
             "module": ferfereh,
+        },
+        "blue-stability": {
+            "module": blue_stability,
+        },
+        "aiart": {
+            "module": articraft,
         },
         "Kanata": {
             "legacy": True,
