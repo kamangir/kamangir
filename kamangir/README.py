@@ -1,8 +1,7 @@
 import os
 from blueness import module
 
-from blue_objects import file
-from abcli.plugins.README import build as build_README
+from blue_objects import file, README
 
 from kamangir import NAME, VERSION, REPO_NAME, ICON
 from kamangir.content import content
@@ -34,7 +33,7 @@ def build():
         if name != "template"
     ]
 
-    return build_README(
+    return README.build(
         items=items,
         cols=content["cols"],
         path=os.path.join(file.path(__file__), ".."),
