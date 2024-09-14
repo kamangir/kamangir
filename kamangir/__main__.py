@@ -1,7 +1,7 @@
-from kamangir import NAME, VERSION, DESCRIPTION, ICON
-from kamangir import README
-from kamangir.logger import logger
 from blueness.argparse.generic import main
+
+from kamangir import NAME, VERSION, DESCRIPTION, ICON, README
+from kamangir.logger import logger
 
 main(
     ICON=ICON,
