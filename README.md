@@ -12,8 +12,7 @@ My name is [Arash](http://kamangir.net/); I mix [ai](https://github.com/kamangir
 
 ---
 
-to use on [AWS SageMaker](https://aws.amazon.com/sagemaker/) replace `<plugin-name>` with "kamangir" and follow [these instructions](https://github.com/kamangir/notebooks-and-scripts/blob/main/SageMaker.md).
 
-[![pylint](https://github.com/kamangir/kamangir/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/kamangir/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/kamangir/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/kamangir/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/kamangir/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/kamangir/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/kamangir.svg)](https://pypi.org/project/kamangir/)
+[![pylint](https://github.com/kamangir/kamangir/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/kamangir/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/kamangir/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/kamangir/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/kamangir/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/kamangir/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/kamangir.svg)](https://pypi.org/project/kamangir/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/kamangir)](https://pypistats.org/packages/kamangir)
 
-built by 🌀 [`blue_options-4.110.1`](https://github.com/kamangir/awesome-bash-cli), based on 📜 [`kamangir-3.157.1`](https://github.com/kamangir/kamangir).
+built by 🌀 [`blue_options-4.120.1`](https://github.com/kamangir/awesome-bash-cli), based on 📜 [`kamangir-3.158.1`](https://github.com/kamangir/kamangir).
