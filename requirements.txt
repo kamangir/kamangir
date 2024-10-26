@@ -1,6 +1,7 @@
 blueness
 blue_plugin
 blue_geo
+blueflow
 blue_stability
 abcli
 articraft
@@ -8,7 +9,6 @@ boto3
 ferfereh
 gizai
 hubblescope
-notebooks_and_scripts
 numpy
 openai_commands
 pymysql

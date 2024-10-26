@@ -9,7 +9,7 @@ import blue_stability
 import hubblescope
 import ferfereh
 import gizai
-import notebooks_and_scripts
+import blueflow
 import openai_commands
 import roofAI
 import vancouver_watching
@@ -33,7 +33,7 @@ content = {
             "module": openai_commands,
         },
         "notebooks-and-scripts": {
-            "module": notebooks_and_scripts,
+            "module": blueflow,
         },
         "giza": {
             "module": gizai,
