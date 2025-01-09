@@ -1,5 +1,7 @@
 My name is [Arash](https://www.linkedin.com/in/abadpour/); here is my resume in two versions: [compact](https://abadpour-com.s3.ca-central-1.amazonaws.com/cv/arash-abadpour-resume.pdf) and [full](https://abadpour-com.s3.ca-central-1.amazonaws.com/cv/arash-abadpour-resume-full.pdf).
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/kamangir/blue-codespace?quickstart=1)
+
 |   |   |   |
 | --- | --- | --- |
 | 🌐 [`blue-geo`](https://github.com/kamangir/blue-geo) [![image](https://kamangir-public.s3.ca-central-1.amazonaws.com/2024-01-06-20-39-46-73614/2024-01-06-20-39-46-73614-2X.gif?raw=true)](https://github.com/kamangir/blue-geo) AI for a Blue Planet.  [![PyPI version](https://img.shields.io/pypi/v/blue_geo.svg)](https://pypi.org/project/blue_geo/) | 🔭 [`hubblescope`](https://github.com/kamangir/hubble) [![image](https://github.com/kamangir/hubble/raw/main/assets/hst/u4ge0106r_c0m.gif)](https://github.com/kamangir/hubble) tools to access and process Hubble Space Telescope imagery and other datasets on AWS Open Data Registry.  [![PyPI version](https://img.shields.io/pypi/v/hubblescope.svg)](https://pypi.org/project/hubblescope/) | 🌈 [`vancouver-watching`](https://github.com/kamangir/vancouver-watching) [![image](https://kamangir-public.s3.ca-central-1.amazonaws.com/test_vancouver_watching_ingest/animation.gif)](https://github.com/kamangir/vancouver-watching) Vancouver Watching with AI.  [![PyPI version](https://img.shields.io/pypi/v/vancouver_watching.svg)](https://pypi.org/project/vancouver_watching/) |
@@ -15,4 +17,4 @@ My name is [Arash](https://www.linkedin.com/in/abadpour/); here is my resume in 
 
 [![pylint](https://github.com/kamangir/kamangir/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/kamangir/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/kamangir/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/kamangir/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/kamangir/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/kamangir/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/kamangir.svg)](https://pypi.org/project/kamangir/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/kamangir)](https://pypistats.org/packages/kamangir)
 
-built by 🌀 [`blue_options-4.175.1`](https://github.com/kamangir/awesome-bash-cli), based on 📜 [`kamangir-3.168.1`](https://github.com/kamangir/kamangir).
+built by 🌀 [`blue_options-4.175.1`](https://github.com/kamangir/awesome-bash-cli), based on 📜 [`kamangir-3.169.1`](https://github.com/kamangir/kamangir).
