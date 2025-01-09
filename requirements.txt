@@ -5,6 +5,7 @@ blue_plugin
 blue_geo
 blueflow
 blue_stability
+blue_codespace
 articraft
 boto3
 ferfereh
