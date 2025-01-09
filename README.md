@@ -1,4 +1,4 @@
-📂  [arash-abadpour-resume.pdf](https://abadpour-com.s3.ca-central-1.amazonaws.com/cv/arash-abadpour-resume.pdf), [arash-abadpour-resume-full.pdf](https://abadpour-com.s3.ca-central-1.amazonaws.com/cv/arash-abadpour-resume-full.pdf).
+My name is [Arash](); here is my resume in two versions: [compact](https://abadpour-com.s3.ca-central-1.amazonaws.com/cv/arash-abadpour-resume.pdf) and [full](https://abadpour-com.s3.ca-central-1.amazonaws.com/cv/arash-abadpour-resume-full.pdf).
 
 |   |   |   |
 | --- | --- | --- |
@@ -15,4 +15,4 @@
 
 [![pylint](https://github.com/kamangir/kamangir/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/kamangir/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/kamangir/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/kamangir/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/kamangir/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/kamangir/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/kamangir.svg)](https://pypi.org/project/kamangir/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/kamangir)](https://pypistats.org/packages/kamangir)
 
-built by 🌀 [`blue_options-4.175.1`](https://github.com/kamangir/awesome-bash-cli), based on 📜 [`kamangir-3.165.1`](https://github.com/kamangir/kamangir).
+built by 🌀 [`blue_options-4.175.1`](https://github.com/kamangir/awesome-bash-cli), based on 📜 [`kamangir-3.166.1`](https://github.com/kamangir/kamangir).
