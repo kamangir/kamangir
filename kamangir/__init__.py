@@ -4,6 +4,12 @@ ICON = "📜"
 
 DESCRIPTION = f"{ICON} github/kamangir."
 
-VERSION = "3.163.1"
+VERSION = "3.176.1"
 
-REPO_NAME = "kamangir"
+MARQUEE = (
+    "https://github.com/kamangir/assets/blob/main/abadpour/2020-11-21.jpg?raw=true"
+)
+
+REPO_NAME = NAME
+
+ALIAS = NAME

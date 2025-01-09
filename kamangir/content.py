@@ -1,7 +1,9 @@
 import abcli
+import abadpour
 import articraft
 from blue_objects.env import ABCLI_PUBLIC_PREFIX
 import blue_geo
+import blue_codespace
 import blue_objects
 import blue_options
 import blue_plugin
@@ -41,8 +43,8 @@ content = {
         "awesome-bash-cli": {
             "module": abcli,
         },
-        "ferfereh": {
-            "module": ferfereh,
+        "CV": {
+            "module": abadpour,
         },
         "blue-options": {
             "module": blue_options,
@@ -52,6 +54,12 @@ content = {
         },
         "blue-plugin": {
             "module": blue_plugin,
+        },
+        "blue-codespace": {
+            "module": blue_codespace,
+        },
+        "ferfereh": {
+            "module": ferfereh,
         },
         "blue-stability": {
             "module": blue_stability,
