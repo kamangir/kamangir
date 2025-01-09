@@ -1,4 +1,4 @@
-My name is [Arash](http://kamangir.net/); I mix [ai](https://github.com/kamangir/roofAI), [cloud](https://github.com/kamangir/hubble), and [mathematics](https://github.com/kamangir/giza) into minimal forms that seek survival.
+📂  [arash-abadpour-resume.pdf](https://abadpour-com.s3.ca-central-1.amazonaws.com/cv/arash-abadpour-resume.pdf), [arash-abadpour-resume-full.pdf](https://abadpour-com.s3.ca-central-1.amazonaws.com/cv/arash-abadpour-resume-full.pdf).
 
 --table--
 
