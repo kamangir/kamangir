@@ -13,7 +13,7 @@ import ferfereh
 import gizai
 import blueflow
 import openai_commands
-import roofAI
+import roofai
 import vancouver_watching
 
 content = {
@@ -28,8 +28,8 @@ content = {
         "vancouver-watching": {
             "module": vancouver_watching,
         },
-        "roofAI": {
-            "module": roofAI,
+        "roofai": {
+            "module": roofai,
         },
         "openai-commands": {
             "module": openai_commands,

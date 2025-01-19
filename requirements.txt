@@ -18,6 +18,6 @@ pyyaml
 pylint
 pytest
 python-dotenv[cli]
-roofAI
+roofai
 tqdm
 vancouver_watching
