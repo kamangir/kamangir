@@ -17,4 +17,4 @@ My name is [Arash](https://www.linkedin.com/in/abadpour/); here is my resume in 
 
 [![pylint](https://github.com/kamangir/kamangir/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/kamangir/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/kamangir/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/kamangir/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/kamangir/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/kamangir/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/kamangir.svg)](https://pypi.org/project/kamangir/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/kamangir)](https://pypistats.org/packages/kamangir)
 
-built by 🌀 [`blue_options-4.192.1`](https://github.com/kamangir/awesome-bash-cli), based on 📜 [`kamangir-3.181.1`](https://github.com/kamangir/kamangir).
+built by 🌀 [`blue_options-4.192.1`](https://github.com/kamangir/awesome-bash-cli), based on 📜 [`kamangir-3.182.1`](https://github.com/kamangir/kamangir).
