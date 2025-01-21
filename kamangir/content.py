@@ -15,10 +15,14 @@ import blueflow
 import openai_commands
 import roofai
 import vancouver_watching
+import palisades
 
 content = {
     "cols": 3,
     "items": {
+        "palisades": {
+            "module": palisades,
+        },
         "blue-geo": {
             "module": blue_geo,
         },

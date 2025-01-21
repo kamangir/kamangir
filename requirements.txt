@@ -21,3 +21,4 @@ python-dotenv[cli]
 roofai
 tqdm
 vancouver_watching
+palisades

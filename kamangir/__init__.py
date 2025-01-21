@@ -4,7 +4,7 @@ ICON = "📜"
 
 DESCRIPTION = f"{ICON} github/kamangir."
 
-VERSION = "3.182.1"
+VERSION = "3.183.1"
 
 MARQUEE = (
     "https://github.com/kamangir/assets/blob/main/abadpour/2020-11-21.jpg?raw=true"
