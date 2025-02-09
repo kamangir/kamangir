@@ -11,6 +11,9 @@ import blue_stability
 import hubblescope
 import ferfereh
 import gizai
+import blue_rover
+import blue_flie
+import blue_sbc
 import blueflow
 import openai_commands
 import roofai
@@ -20,6 +23,15 @@ import palisades
 content = {
     "cols": 3,
     "items": {
+        "blue-rover": {
+            "module": blue_rover,
+        },
+        "blue-flie": {
+            "module": blue_flie,
+        },
+        "blue-sbc": {
+            "module": blue_sbc,
+        },
         "palisades": {
             "module": palisades,
         },
@@ -90,11 +102,6 @@ content = {
             "legacy": True,
             "image": "https://github.com/kamangir/blue-bracket/raw/main/images/marquee.jpg",
             "description": "a parametric 3d-printed bracket to build hardware for machine vision & ai on raspberry pi and jetson nano on the edge.",
-        },
-        "blue-sbc": {
-            "legacy": True,
-            "image": "https://github.com/kamangir/blue-bracket/raw/main/images/blue3-1.jpg",
-            "description": "python + bash bootstrap for edge computing on single board computers.",
         },
         "template": {
             "module": abcli,
